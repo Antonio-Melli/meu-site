@@ -173,14 +173,20 @@
         <!-- Formulário de Contato (Direita) -->
         <div class="formulario-contato fade-in">
             <h2>Fale Comigo</h2>
-            <form action="processa_formulario.php" method="POST" class="form-contato">
-                <input type="text" name="nome" placeholder="Seu nome" required>
-                <input type="email" name="email" placeholder="Seu e-mail" required>
+            <form class="form-contato">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
                 <input type="text" name="assunto" placeholder="Assunto" required>
-                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <textarea name="mensagem" placeholder="Mensagem" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
+            
+            <div id="mensagem-status"></div>
+       </div>
+       
+            
         </div>
+       
     </div>
 </section>
 
