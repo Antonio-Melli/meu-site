@@ -240,6 +240,93 @@ header {
     transform: translateY(-10px);
 }
 
+/* Projetos */
+.hero3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 75px 20px;
+    cursor: default;
+}
+
+.hero3 h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 0; 
+}
+
+.hero3 p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0; 
+    margin-bottom: 20px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    padding: 50px 20px;
+    cursor: default;
+}
+
+.projeto {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+}
+
+.projeto a {
+    background-color: #5e1a72;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.projeto i {
+    font-size: 20px;
+    color: #5e1a72;
+    margin-right: 7px;
+}
+
+.projeto a i {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.projeto a:hover {
+    background-color: #471564;
+}
+
+.projeto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.projeto p {
+    font-size: 16px;
+    color: #555;
+    cursor: default;
+}
+
+.projeto:hover {
+    transform: translateY(-10px);
+}
+
 /* Áreas de atuação */
 .hero p {
     font-size: 18px;
@@ -694,6 +781,11 @@ footer {
     max-width: 400px; 
     margin-bottom: 20px; 
 }
+
+.hero3 p {
+    text-align: center;
+}
+
 header {
     display: flex;
     flex-direction: column; 
@@ -936,6 +1028,22 @@ width: 425px;
     margin-bottom: 5px;
 }
 
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 40px; 
+    width: 100%;
+}
+.projeto {
+    width: 90%; 
+    max-width: 400px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .hero {
     margin: 0px;
     display: flex;
@@ -968,6 +1076,8 @@ width: 425px;
     display: inline-block;
     font-size: 40px;
 }
+
+
 
 .areas {
     flex-direction: column; 
