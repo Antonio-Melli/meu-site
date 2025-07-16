@@ -1,0 +1,13 @@
+/* Rodapé */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a8b2d1;
+    width: 100%;
+    padding: 15px 40px;
+    cursor: default;
+    margin-top: 250px;
+    cursor: default;
+}

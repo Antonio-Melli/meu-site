@@ -1,0 +1,108 @@
+/* Conhecimento */
+
+  .sobre-section {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  padding: 100px 5px;
+}
+
+.container-sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.texto-sobre {
+  flex: 1;
+  min-width: 400px;
+  text-align:justify;
+}
+
+.texto-sobre h2 {
+  font-size: 28px;
+  color: #ccd6f6;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #233554;
+  padding-bottom: 10px;
+}
+
+.texto-sobre .numero {
+  color: #4aa5f0;
+  font-family: monospace;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.texto-sobre p {
+  font-size: 16px;
+  color: #8892b0;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tech-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #8892b0;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.tech-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #4aa5f0;
+  font-size: 14px;
+}
+
+.foto-sobre {
+  flex: 1;
+  min-width: 250px;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background-color: #64ffda25;
+  padding: 8px;
+  transition: all 0.3s ease;
+    width: 300px;         
+  height: 300px; 
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* faz a imagem preencher o quadrado */
+  border-radius: 4px;
+  filter: grayscale(100%) contrast(1);
+  transition: all 0.3s ease;
+}
+
+.img-wrapper:hover img {
+  filter: none;
+}
+
+.img-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #64ffda88;
+}

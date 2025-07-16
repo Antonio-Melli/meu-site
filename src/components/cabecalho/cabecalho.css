@@ -1,0 +1,92 @@
+/* Cabeçalho */
+
+header {
+      display: flex;
+    justify-content: space-between;
+    background-color: #0a192f; /* Fundo escuro elegante */
+    padding: 20px 40px;
+    color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+   border-bottom: 1px solid #112240;
+}
+
+.cabecalho {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .numeroheader {
+      color: #4aa5f0;
+  font-family: monospace;
+  font-size: 14px;
+  }
+
+.textoheader {
+  color: #ccd6f6;
+}
+
+.textoheader a:hover {
+  color: #4aa5f0;
+}
+  
+  /* Logo */
+  .logo img {
+    width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+  }
+  
+  /* Menu de navegação */
+  nav {
+    display: flex;
+    gap: 20px;
+}
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+    transition: color 0.3s;
+  }
+  
+  .logo:hover {
+    color: #4aa5f0;
+  }
+  
+  /* Menu de navegação */
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .nav-menu a {
+    display: flex;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ccd6f6;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #4aa5f0;
+  }
+
+  
+  .nav-menu a.active {
+    color: #4aa5f0;
+  }
+  
+  /* Ícones */
+  .nav-menu i {
+    color: #4aa5f0;
+  }
