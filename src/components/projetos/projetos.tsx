@@ -56,7 +56,7 @@ function Projetos() {
        </ul>
 
        <div className="project-links">
-        <a href="https://www.google.com/" aria-label="GitHub"><i className="fa-brands fa-github"></i></a>
+        <a href="https://github.com/Antonio-Melli/meu-site" aria-label="GitHub"><i className="fa-brands fa-github"></i></a>
         <a href="http://www.antoniomelli.kesug.com" aria-label="GitHub"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
        </div>
      </div>

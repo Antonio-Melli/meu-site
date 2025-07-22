@@ -40,7 +40,7 @@ function Conhecimento() {
          descobri que criar sites personalizados é uma forma incrível de aprender lógica e criatividade.</p>
 
       <p>Hoje, tenho me dedicado ao desenvolvimento de sites especializados e extensos com foco em acessibilidade, 
-         usabilidade e performance. Meu stack atual inclui HTML, CSS, JavaScript e PHP.</p>
+         usabilidade e performance. Meu stack atual inclui TypeScript, React, JavaScript e PHP.</p>
 
       <p>Estas são algumas das tecnologias com que venho trabalhando recentemente:</p>
 

@@ -184,7 +184,8 @@
 }
 
 .sobremim-conteudo h2 {
-  font-size: 32px;
+  font-size: 28px;
+  max-width: 100%;
 }
 
 #sobre {
@@ -301,7 +302,7 @@ font-size: 18px;
 }
 
 .project-container1 {
-  background-image: url('./components/projetos/img/imagem3.png');
+  background-image: url('./components/projetos/img/imagem4.png');
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -310,6 +311,14 @@ font-size: 18px;
 
 .project-container2 {
   background-image: url('./components/projetos/img/imagem.png');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+    height: 400px;
+}
+
+.project-container3 {
+  background-image: url('./components/projetos/img/imagem3.png');
   background-position: center;
   background-repeat: none;
   background-size: cover;
