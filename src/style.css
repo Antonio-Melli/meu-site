@@ -297,6 +297,7 @@ font-size: 18px;
   flex-direction: column;
   justify-content: center;
   margin-left: 0;
+  padding: 0;
 }
 
 .project-container1 {

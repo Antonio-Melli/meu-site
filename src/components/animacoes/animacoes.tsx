@@ -1,41 +1,53 @@
-import React, { useEffect } from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import './animacoes.css';
+// CSS do componente de animações
+import './animacoes.css'; // CSS do cabeçalho
 
-export function toggleMobileMenu() { /*Inicio dos codigos para o menu mobile */
-  const menu = document.getElementById('mobileNav');
-  const body = document.body;
+// Bibliotecas e hooks necessários
+import React, { useEffect } from 'react'; // Hook useEffect do React, para animações
 
-  menu.classList.toggle('active');
-  body.classList.toggle('blur');
+
+
+// Função para alternar o menu mobile
+export function toggleMobileMenu() {
+  const menu = document.getElementById('mobileNav'); // Obtém o menu mobile
+  const body = document.body; // Obtém o body do documento
+
+  menu.classList.toggle('active'); // Alterna a classe 'active' no menu mobile
+  body.classList.toggle('blur'); // Adiciona ou remove a classe 'blur' no body
   body.classList.toggle('no-scroll'); // ← impede rolagem
 }
 
+
+
+// Componente de animações
 function Animacoes() {
-  useEffect(() => { /*Animacao do inicio */
-    const preloader = document.getElementById('preloader');
-    const content = document.getElementById('content');
-    setTimeout(() => {
-      preloader.classList.add('hidden');
-      setTimeout(() => {
-        preloader.style.display = 'none';
-        if (content) content.style.display = 'block';
+
+  useEffect(() => { //Animaçao do inicio 
+    const preloader = document.getElementById('preloader'); // Obtém o preloader
+    const content = document.getElementById('content'); // Obtém o conteúdo principal
+    setTimeout(() => { // Define um tempo para a animação do preloader
+      preloader.classList.add('hidden'); // Adiciona a classe 'hidden' ao preloader
+      setTimeout(() => { // Espera o tempo da animação para esconder o preloader
+        preloader.style.display = 'none'; // Esconde o preloader
+        if (content) content.style.display = 'block'; // Exibe o conteúdo principal
       }, 500);
     }, 1000);
-    /*Fim da Animacao do inicio */
+    // Fim da Animacao do inicio
 
-    /*Mais codigos para o menu mobile */
-document.querySelectorAll('.mobile-nav a').forEach(link => {
-  link.addEventListener('click', () => {
-    document.getElementById('mobileNav').classList.remove('active');
-    document.body.classList.remove('blur', 'no-scroll');
+
+    // Mais codigos para o menu mobile
+document.querySelectorAll('.mobile-nav a').forEach(link => { // Seleciona todos os links do menu mobile
+  link.addEventListener('click', () => { // Adiciona um evento de clique a cada link
+    document.getElementById('mobileNav').classList.remove('active'); // Remove a classe 'active' do menu mobile
+    document.body.classList.remove('blur', 'no-scroll'); // Remove as classes 'blur' e 'no-scroll' do body
   });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const links = document.querySelectorAll(".nav-menu a");
 
-    links.forEach(link => {
-      link.addEventListener("click", () => {
+  document.addEventListener("DOMContentLoaded", () => { // Espera o DOM carregar
+    const links = document.querySelectorAll(".nav-menu a"); // Seleciona todos os links do menu de navegação
+
+
+    links.forEach(link => { // Adiciona um evento de clique a cada link
+      link.addEventListener("click", () => { // Quando um link é clicado
         links.forEach(l => l.classList.remove("active")); // remove dos outros
         link.classList.add("active"); // adiciona ao clicado
       });
@@ -43,21 +55,22 @@ document.querySelectorAll('.mobile-nav a').forEach(link => {
   });
 
 });
-/*Fim dos codigos para o menu mobile */
-
   }, []);
+// Fim dos codigos para o menu mobile
 
+
+
+  // Componente para animações 
   return (
     <div className="Animacoes">
-
       <div id="preloader">
         <div className="loader-logo">
           <i className="fa-solid fa-globe"></i>
         </div>
       </div>
-
     </div>
   );
 }
 
+// Exporta o componente de animações para utiliza-lo em app
 export default Animacoes;

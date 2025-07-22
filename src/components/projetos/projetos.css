@@ -1,5 +1,4 @@
 /* Projetos */
-
 .projects-section {
   background-color: #0a192f;
   padding: 100px 20px;
@@ -26,22 +25,6 @@ border-bottom: 1px solid #233554;
   color: #4aa5f0;
   font-weight: 600;
   font-family: monospace;
-}
-
-.project-container1 {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 120px;
-  flex-wrap: wrap;
-}
-
-.project-container2 {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 120px;
-  flex-wrap: wrap;
 }
 
 .project-image {
@@ -116,4 +99,31 @@ border-bottom: 1px solid #233554;
 
 .project-links a:hover {
   color: #4aa5f0;
+}
+
+/* Projeto 1 */
+.project-container1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 120px;
+  flex-wrap: wrap;
+}
+
+/* Projeto 2 */
+.project-container2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 120px;
+  flex-wrap: wrap;
+}
+
+/* Projeto 2 */
+.project-container3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 120px;
+  flex-wrap: wrap;
 }
