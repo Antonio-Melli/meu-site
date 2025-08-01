@@ -399,6 +399,12 @@ footer {
 
 #navegacao {
   margin-left: 0;
+  padding-left: 0;
+}
+
+.sobremim {  
+  margin-left: 15px;
+  padding-left: 0;
 }
 
 .sobremim-conteudo h4 {
@@ -414,7 +420,7 @@ font-size: 24px;
 }
 
 .sobremim-conteudo p {
-font-size: 12px;
+font-size: 13px;
 }
 
 #sobre {
@@ -426,22 +432,15 @@ font-size: 12px;
 }
 
 .texto-sobre p {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .tech-list li {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #experiencia {
       margin-left: 0;
-}
-
-.conteudo-exp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 0;
 }
 
 .experiencia h2 {
@@ -449,7 +448,7 @@ font-size: 12px;
 }
 
 .descricao-exp h3 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .periodo {
@@ -457,7 +456,7 @@ font-size: 12px;
 }
 
 .descricao-exp ul li {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #projetos {
@@ -477,7 +476,7 @@ font-size: 12px;
 }
 
 .project-overline {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .project-title {
@@ -485,7 +484,7 @@ font-size: 12px;
 }
 
 .project-description {
-  font-size: 12px;
+  font-size: 13px;
   text-align:center;
 }
 
@@ -545,22 +544,23 @@ footer {
 
   .sobremim {
             padding-left: 0;
+            margin-left: 15px;
   }
 
   .sobremim-conteudo h1{
-   font-size: 18px;
+   font-size: 24px;
   }
 
     .sobremim-conteudo h4{
-   font-size: 12px;
+   font-size: 15px;
   }
 
     .sobremim-conteudo h2{
-   font-size: 18px;
+   font-size: 24px;
   }
 
       .sobremim-conteudo p{
-   font-size: 12px;
+   font-size: 13px;
   }
 
   #sobre {
@@ -596,12 +596,13 @@ footer {
   }
 
   .texto-sobre p {
-    font-size: 12px;
+    font-size: 13px;
     max-width: 90%;
   }
 
   .tech-list {
     max-width: 80%;
+    font-size: 13px;
   }
 
 .foto-sobre {
@@ -619,9 +620,37 @@ padding-left: 0;
   #experiencia {
                 padding-left: 10px;
   }
+
+  .lista-empresas li.ativo {
+  border-left: 0;
+}
+
+.conteudo-exp ul li{
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+}
+
+.lista-empresas {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+    max-width: 480px;
+}
+
   .descricao-exp h3 {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
+  }
+
+  .descricao-exp ul li {
+    font-size: 14px;
+  }
+
+  .descricao-exp {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
   }
 
   .periodo {
@@ -629,12 +658,20 @@ padding-left: 0;
   }
 
   #projetos {
-                  padding-left: 20px;
+                  padding-left: 0px;
                   margin-left: 0;
   }
 
   .project-title {
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .project-overline {
+    font-size: 14px;
+  }
+
+  .project-description{
+    font-size: 14px;
   }
 
   #contato {
@@ -642,7 +679,7 @@ padding-left: 0;
   }
 
   .contato-texto p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   footer {
