@@ -17,7 +17,7 @@ return (
           <h2 className="content-fade">Eu sou um desenvolvedor web.</h2>
           <p className="content-fade">
             Sou estudante de Análise e Desenvolvimento de Sistemas, dedicado e focado em resultados. 
-            Tenho 18 anos e trabalho com desenvolvimento web, utilizando Node.JS, MySQL, JavaScript, React JS/Native e TypeScript. 
+            Tenho 18 anos e trabalho com desenvolvimento web, utilizando Node.JS, MySQL, C#, JavaScript, React JS/Native e TypeScript. 
             Tenho experiência em criar sites especializados e extensos, buscando sempre oferecer soluções eficientes e 
             bem estruturadas.
           </p>

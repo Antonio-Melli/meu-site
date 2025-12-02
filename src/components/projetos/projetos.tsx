@@ -51,7 +51,7 @@ function Projetos() {
       </div>
 
        <ul className="project-tech-list">
-        <li>VS Code</li>
+       <li>Visual Studio</li>
         <li>React e TypeScript</li>
        </ul>
 
@@ -78,7 +78,7 @@ function Projetos() {
       </div>
 
        <ul className="project-tech-list">
-        <li>VS Code</li>
+        <li>Visual Studio</li>
         <li>React e TypeScript</li>
        </ul>
 
