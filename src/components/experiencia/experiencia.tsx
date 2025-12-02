@@ -60,7 +60,7 @@ function Experiencia() {
                   <span>@Mundial Informática</span>
                 </a>
               </h3>
-              <p className="periodo">Agosto 2025 - Atual</p>
+              <p className="periodo">Agosto 2025 - Outubro 2025</p>
               <ul>
                 <li>Atendimento técnico especializado a clientes de médio e grande porte.</li>
                 <li>Elaboração de relatórios técnicos e sugestões de melhorias para processos internos.</li>

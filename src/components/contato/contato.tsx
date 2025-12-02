@@ -33,7 +33,7 @@ function Contato() {
    
       <div className="contato-texto">
         <h2>Entre em contato</h2>
-          <p>No momento não estou mais em busca de novas oportunidades, mas minha caixa de entrada continua aberta. 
+          <p>No momento estou em busca de novas oportunidades, e minha caixa de entrada está aberta! 
             Se tiver dúvidas ou quiser apenas dizer oi, será um prazer responder.</p>
             <a href="mailto:antoniomelli79@gmail.com">Diga olá</a>
       </div>
